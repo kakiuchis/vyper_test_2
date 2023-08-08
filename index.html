@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon DApp</title>
+</head>
+
+<body>
+    <button id="loginBtn">MetaMask Login</button>
+
+    <div id="dashboard" style="display: none;">
+        <h3>Check Balance</h3>
+        <div id="balanceForms">
+            <!-- 5つのクーポン残高フォームを生成するためのコンテナ -->
+        </div>
+
+        <h3>Transfer</h3>
+        <input type="text" id="toAddress" placeholder="To Address">
+        <input type="text" id="amount" placeholder="Amount">
+        <button id="sendBtn">Send</button>
+
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
